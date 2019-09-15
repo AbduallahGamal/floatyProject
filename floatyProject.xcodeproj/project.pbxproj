@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A4078F6232ED19A00C25502 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4078F5232ED19A00C25502 /* ViewController2.swift */; };
 		8AFCE187232EAE8D00495FA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCE186232EAE8D00495FA9 /* AppDelegate.swift */; };
 		8AFCE189232EAE8D00495FA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCE188232EAE8D00495FA9 /* ViewController.swift */; };
 		8AFCE18C232EAE8D00495FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFCE18A232EAE8D00495FA9 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		8AFCE194232EAE9000495FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFCE192232EAE9000495FA9 /* LaunchScreen.storyboard */; };
 		8AFCE19F232EAE9000495FA9 /* floatyProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCE19E232EAE9000495FA9 /* floatyProjectTests.swift */; };
 		8AFCE1AA232EAE9000495FA9 /* floatyProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCE1A9232EAE9000495FA9 /* floatyProjectUITests.swift */; };
+		E8FAA69FEA903DF7888E85D0 /* Pods_floatyProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD1033FC99E2C948C26F0E /* Pods_floatyProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05AD1033FC99E2C948C26F0E /* Pods_floatyProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_floatyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3844E15FFD842F1FF8E6C370 /* Pods-floatyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-floatyProject.debug.xcconfig"; path = "Target Support Files/Pods-floatyProject/Pods-floatyProject.debug.xcconfig"; sourceTree = "<group>"; };
+		8A4078F5232ED19A00C25502 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		8AFCE183232EAE8D00495FA9 /* floatyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = floatyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFCE186232EAE8D00495FA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AFCE188232EAE8D00495FA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		8AFCE1A5232EAE9000495FA9 /* floatyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = floatyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFCE1A9232EAE9000495FA9 /* floatyProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floatyProjectUITests.swift; sourceTree = "<group>"; };
 		8AFCE1AB232EAE9000495FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F085CCF9937530A6C0D4CFF /* Pods-floatyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-floatyProject.release.xcconfig"; path = "Target Support Files/Pods-floatyProject/Pods-floatyProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FAA69FEA903DF7888E85D0 /* Pods_floatyProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A861603048AFB3179EB4031 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05AD1033FC99E2C948C26F0E /* Pods_floatyProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8AFCE17A232EAE8D00495FA9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +98,8 @@
 				8AFCE19D232EAE9000495FA9 /* floatyProjectTests */,
 				8AFCE1A8232EAE9000495FA9 /* floatyProjectUITests */,
 				8AFCE184232EAE8D00495FA9 /* Products */,
+				DAC8D11EC0C288909D5583A5 /* Pods */,
+				0A861603048AFB3179EB4031 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +118,7 @@
 			children = (
 				8AFCE186232EAE8D00495FA9 /* AppDelegate.swift */,
 				8AFCE188232EAE8D00495FA9 /* ViewController.swift */,
+				8A4078F5232ED19A00C25502 /* ViewController2.swift */,
 				8AFCE18A232EAE8D00495FA9 /* Main.storyboard */,
 				8AFCE190232EAE9000495FA9 /* Assets.xcassets */,
 				8AFCE192232EAE9000495FA9 /* LaunchScreen.storyboard */,
@@ -128,6 +146,15 @@
 			path = floatyProjectUITests;
 			sourceTree = "<group>";
 		};
+		DAC8D11EC0C288909D5583A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3844E15FFD842F1FF8E6C370 /* Pods-floatyProject.debug.xcconfig */,
+				8F085CCF9937530A6C0D4CFF /* Pods-floatyProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AFCE1AE232EAE9000495FA9 /* Build configuration list for PBXNativeTarget "floatyProject" */;
 			buildPhases = (
+				91E84612F7789948701402C6 /* [CP] Check Pods Manifest.lock */,
 				8AFCE17F232EAE8D00495FA9 /* Sources */,
 				8AFCE180232EAE8D00495FA9 /* Frameworks */,
 				8AFCE181232EAE8D00495FA9 /* Resources */,
+				FF888AABDA8AE7C630C47222 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,12 +283,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		91E84612F7789948701402C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-floatyProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF888AABDA8AE7C630C47222 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-floatyProject/Pods-floatyProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-floatyProject/Pods-floatyProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-floatyProject/Pods-floatyProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AFCE17F232EAE8D00495FA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8AFCE18F232EAE8D00495FA9 /* floatyProject.xcdatamodeld in Sources */,
+				8A4078F6232ED19A00C25502 /* ViewController2.swift in Sources */,
 				8AFCE189232EAE8D00495FA9 /* ViewController.swift in Sources */,
 				8AFCE187232EAE8D00495FA9 /* AppDelegate.swift in Sources */,
 			);
@@ -434,10 +506,12 @@
 		};
 		8AFCE1AF232EAE9000495FA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3844E15FFD842F1FF8E6C370 /* Pods-floatyProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = floatyProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,10 +525,12 @@
 		};
 		8AFCE1B0232EAE9000495FA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F085CCF9937530A6C0D4CFF /* Pods-floatyProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = floatyProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
